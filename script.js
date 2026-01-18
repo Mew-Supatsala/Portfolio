@@ -29,7 +29,7 @@ const workData = {
            target="_blank" class="btn primary">
           <i class="fa-brands fa-figma"></i> Figma
         </a>
-        <a href="https://github.com/Mew-Supatsala"
+        <a href="https://github.com/Mew-Supatsala/chatcpe.git"
            target="_blank" class="btn secondary">
           <i class="fa-brands fa-github"></i> GitHub
         </a>
@@ -91,7 +91,7 @@ const workData = {
              target="_blank" class="btn primary">
             <i class="fa-solid fa-file-pdf"></i> Canva (PDF)
           </a>
-          <a href="https://github.com/Mew-Supatsala"
+          <a href="https://github.com/Mew-Supatsala/e-commerce-website.git"
              target="_blank" class="btn secondary">
             <i class="fa-brands fa-github"></i> GitHub
           </a>
@@ -126,7 +126,7 @@ const workData = {
              target="_blank" class="btn primary">
             <i class="fa-solid fa-paintbrush"></i> UI Design
           </a>
-          <a href="https://github.com/Mew-Supatsala"
+          <a href="https://github.com/Mew-Supatsala/Social-Network.git"
              target="_blank" class="btn secondary">
             <i class="fa-brands fa-github"></i> GitHub
           </a>
@@ -138,9 +138,13 @@ const workData = {
   isne: {
     title: "ISNE Puzzle Rooms",
     images: [
-      "chatcpe.png",
-      "2.png",
-      "3.png"
+      "31.png",
+      "30.png",
+      "32.png",
+      "33.png",
+      "34.png",
+      "35.png",
+      "36.png"
     ],
     text: `
       <div class="modal-section">
@@ -156,7 +160,7 @@ const workData = {
         </ul>
 
         <div class="modal-buttons">
-          <a href="#" class="btn primary">
+          <a href="https://rooms.xyz/pampam09/first" class="btn primary">
             <i class="fa-solid fa-gamepad"></i> Gameplay Demo
           </a>
           <a href="https://github.com/Mew-Supatsala"
@@ -190,9 +194,13 @@ const workData = {
         </ul>
 
         <div class="modal-buttons">
-          <a href="MaeNak Game.pdf" target="_blank" class="btn primary">
+          <a href="https://www.canva.com/design/DAFwLEQRgoA/Rd2MBk5Xm8nfIGTv9hJmQA/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0" target="_blank" class="btn primary">
             <i class="fa-solid fa-file-pdf"></i> Character Design
           </a>
+          <a href="https://github.com/Mew-Supatsala/Maenak-Game.git"
+          target="_blank" class="btn secondary">
+         <i class="fa-brands fa-github"></i> GitHub
+       </a>
         </div>
       </div>
     `
@@ -254,12 +262,12 @@ const workData = {
         </ul>
 
         <div class="modal-buttons">
-          <a href="CA.pdf" target="_blank" class="btn primary">
-            <i class="fa-solid fa-file-pdf"></i> Design (PDF)
-          </a>
           <a href="https://www.canva.com/design/DAFuewVGTaA/rS3zFewYxVTb83yfoG239Q/edit"
-             target="_blank" class="btn secondary">
+             target="_blank" class="btn primary">
             <i class="fa-solid fa-palette"></i> Canva
+          </a>
+           <a href="https://mew-supatsala.github.io/calendar/" target="_blank"class="btn secondary ">
+            <i class="fa-solid fa-file-pdf"></i> Page 
           </a>
         </div>
       </div>
