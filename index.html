@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">MEW-SUPATSALA</div>
+    <nav class="nav">
+        <a href="#about">ABOUT ME</a>
+        <a href="resume.pdf" target="_blank">RESUME</a>
+        <a href="#work">WORK</a>
+        
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1 class="title">Portfolio</h1>
+      <span class="script">MEW LEE</span>
+    </div>
+
+    <div class="contact-buttons">
+    <a href="https://github.com/Mew-Supatsala" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-github"></i>
+      <span>GitHub</span>
+    </a>
+  
+    <a href="https://www.linkedin.com/in/supatsala-charanaphong-a84b6432a/" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-linkedin"></i>
+      <span>LinkedIn</span>
+    </a>
+  
+    <a href="mailto:supatsala02@gmail.com">
+      <i class="fa-solid fa-envelope"></i>
+      <span>Email</span>
+
+    </a>
+  </div>
+  </section>
+
+  
+  
+
+  <section id="about" class="intro">
+    <div class="about-layout">
+  
+        <div  class="about-text">
+      <h2 class="intro-title">
+        <span class="hello-text">HELLO, I’M</span> 
+        <span class="intro-script">Mew</span>
+      </h2>
+      
+      <p>
+        Supatsala Charanaphong.I’m a Front-End Web Developer who enjoys turning ideas and designs
+        into responsive, interactive, and user-friendly websites.
+      </p>
+  
+      <p>
+        My work focuses on building clean UI, writing maintainable code,
+        and creating smooth user experiences using modern web technologies.
+      </p>
+  
+      <p>
+        Through this portfolio, you’ll find selected projects that showcase
+        my skills in HTML, CSS, JavaScript, and front-end frameworks.
+      </p>
+      <div class="skills">
+        <h3 class="skills-title">TECHNICAL SKILLS</h3>
+      
+        <div class="skill-group">
+          <span class="skill-label">Front-End & UI</span>
+          <div class="skill-buttons">
+            <span class="skill"><i class="fa-brands fa-html5"></i> HTML</span>
+            <span class="skill"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+            <span class="skill"><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span class="skill"><i class="fa-brands fa-react"></i> React</span>
+            <span class="skill"><i class="fa-brands fa-figma"></i> Figma</span>
+            <span class="skill"><i class="fa-solid fa-palette"></i> Canva</span>
+          </div>
+        </div>
+      
+        <div class="skill-group">
+          <span class="skill-label">Tools & Platforms</span>
+          <div class="skill-buttons">
+            <span class="skill"><i class="fa-solid fa-code"></i> VS Code</span>
+            <span class="skill"><i class="fa-solid fa-paper-plane"></i> Postman</span>
+            <span class="skill"><i class="fa-brands fa-linux"></i> Linux</span>
+            <span class="skill"><i class="fa-solid fa-network-wired"></i> Cisco Packet Tracer</span>
+          </div>
+        </div>
+      
+        <div class="skill-group">
+          <span class="skill-label">Game Development</span>
+          <div class="skill-buttons">
+            <span class="skill"><i class="fa-brands fa-unity"></i> Unity</span>
+            <span class="skill"><i class="fa-solid fa-code"></i> C#</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-preview">
+        <img src="SI.png" class="preview top" alt="">
+        <img src="CA.png"  class="preview bottom" alt="">
+      </div>  
+  
+    </div>
+  </section>
+ 
+  <section id="work" class="work-section">
+    <h2 class="work-title">WORK EXPERIENCE</h2>
+  
+    <div class="work-grid">
+  
+      <!-- Card 1 -->
+      <div class="work-card" onclick="openModal('chatcpe')"> 
+       <img src="chatcpe.png" alt="ChatCPE">
+       <h3>ChatCPE</h3>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="work-card" onclick="openModal('ctf')">
+        <img src="cyber.jpg" alt="Thailand Cyber Top Talent">
+        <h3>Thailand Cyber Top Talent 2024</h3>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="work-card" onclick="openModal('dripper')">
+        <img src="Dripper.png" alt="Dripper">
+        <h3>Dripper</h3>
+      </div>
+  
+      <!-- Card 4 -->
+      <div class="work-card" onclick="openModal('solitaire')">
+        <img src="SI.png" alt="Solitaire">
+        <h3>Solitaire</h3>
+      </div>
+  
+      <!-- Card 5 -->
+      <div class="work-card" onclick="openModal('isne')">
+        <img src="isne.png" alt="ISNE Puzzle Rooms">
+        <h3>ISNE Puzzle Rooms</h3>
+      </div>
+  
+      <!-- Card 6 -->
+      <div class="work-card" onclick="openModal('maenak')">
+        <img src="MaeNak Game.png" alt="Maenak Game">
+        <h3>Maenak Game</h3>
+      </div>
+  
+      <!-- Card 7 -->
+      <div class="work-card" onclick="openModal('cloud')">
+        <img src="cloudguard.png" alt="Cloud Guard AI">
+        <h3>Cloud Guard AI</h3>
+      </div>
+
+      <div class="work-card" onclick="openModal('calendar')">
+        <img src="2.png" alt="calendar">
+        <h3>Calendar & To-Do List</h3>
+      </div>
+      
+  
+    </div>
+    <div id="workModal" class="modal" onclick="closeModal()">
+
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <span class="close" onclick="closeModal()">×</span>
+    
+        <div class="modal-body">
+          <div class="modal-image">
+            <img id="modalMainImage" class="main-image">
+            <div id="modalThumbs" class="thumbs"></div>
+          </div>
+    
+          <div class="modal-info">
+            <h2 id="modalTitle"></h2>
+            <div id="modalText"></div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    
+  
+  
+    </div>
+  </div>
+  
+  
+  
+      </div>
+    </div>
+  </div>
+  
+
+    
+    
+  </section>
+  
+  
+  
+<script src="script.js"></script>
+</body>
+</html>
